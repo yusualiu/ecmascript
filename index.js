@@ -193,3 +193,37 @@ if(false){
 //   console.log(json[0]);
 // }
 // getTop100Campers();
+
+// function resolveAfter3Seconds(){
+//   return new Promise(resolve =>{
+//       setTimeout(()=>{
+//         resolve('resolved');
+//       },5000);
+//   });
+// }
+
+// resolveAfter3Seconds().then((data)=>{
+//   console.log(data)
+// });
+
+// async function getAsyncData(){
+//   const result = await resolveAfter3Seconds();
+//   console.log(result);
+// }
+
+// getAsyncData();
+
+// Sets
+// const exampleSet  = new Set([1,1,1,1,1,2,2,2,2]);
+// exampleSet.add([2]);
+// exampleSet.add(8);
+// exampleSet.add(3).add(true);
+// // console.log(exampleSet.delete(3));// returns true
+// // console.log(exampleSet.has(5));// returns false
+
+// for (const iterator of exampleSet) {
+//     console.log(iterator);
+// }
+
+// console.log(exampleSet);
+// console.log(exampleSet.size);
