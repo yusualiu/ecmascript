@@ -171,3 +171,25 @@ if(false){
 // add();
 
 //Async and Await
+
+// const apiUrl = 'https://fcctop100.herokuapp.com/api/fccusers/top/alltime';
+// const apiUrl = 'https://api.github.com';
+
+// function getTop100Campers(){
+//  fetch(apiUrl)
+//  .then((response)=>response.json())
+//  .then((json) =>{
+//    console.log(json[0]);
+//  }).catch((error)=>{
+//    console.log('Failed');
+//  });
+// // console.log(apiUrl);
+
+// }
+
+// async function getTop100Campers(){
+//   const response = await fetch(apiUrl);
+//   const json = await response.json();
+//   console.log(json[0]);
+// }
+// getTop100Campers();
